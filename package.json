@@ -9,6 +9,7 @@
   },
   "scripts": {
     "build": "ember build",
+    "postinstall": "npm install -g bower && bower install",
     "start": "ember server",
     "test": "ember test"
   },
